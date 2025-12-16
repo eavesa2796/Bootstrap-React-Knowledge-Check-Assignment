@@ -1,16 +1,100 @@
-# React + Vite
+# Bootstrap React Knowledge Check Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **React application created with Vite** to demonstrate understanding of **React fundamentals** and **Bootstrap styling**. It focuses on component structure, JSX usage, and responsive layouts using Bootstrap.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
 
-## React Compiler
+* **React** (via Vite)
+* **Vite** (development/build tool)
+* **Bootstrap** (layout & styling)
+* **JavaScript (ES6+)**
+* **HTML5 / CSS3**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📦 Installation & Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Clone the repository:
+
+```bash
+git clone https://github.com/eavesa2796/Bootstrap-React-Knowledge-Check-Assignment.git
+cd Bootstrap-React-Knowledge-Check-Assignment
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+The app will be available at the local URL shown in your terminal (typically):
+
+```
+http://localhost:5173
+```
+
+---
+
+## 🧠 Project Purpose
+
+This assignment was created as a **knowledge check** to demonstrate proficiency with:
+
+* React component structure
+* JSX syntax
+* Using Bootstrap in a React (Vite) project
+* Responsive layouts using Bootstrap utility classes
+* Running and building a Vite-based React application
+
+---
+
+## 🖥️ Features
+
+* React-based UI
+* Bootstrap-powered responsive layout
+* Clean, readable component structure
+* Fast development workflow using Vite
+
+---
+
+## 📁 Project Structure (High Level)
+
+```text
+src/
+├── components/      # Reusable React components
+├── App.jsx          # Root component
+├── main.jsx         # Application entry point
+└── assets / styles  # Static assets or styling (if applicable)
+```
+
+---
+
+## ✅ Requirements Met
+
+* React app created using **Vite**
+* Bootstrap successfully integrated
+* Components render correctly
+* Layout adapts to different screen sizes
+* Application runs locally without errors
+
+---
+
+## 📌 Notes
+
+This project is intended for **educational and demonstration purposes**. It may be extended with additional features such as state management, routing, or custom styling if needed.
+
+---
+
+## 👤 Author
+
+**Anthony Eaves**
+GitHub: [@eavesa2796](https://github.com/eavesa2796)
+
+
