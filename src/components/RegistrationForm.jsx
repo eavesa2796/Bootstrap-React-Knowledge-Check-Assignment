@@ -12,6 +12,7 @@ function RegistrationForm() {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
   const [terms, setTerms] = useState(false);
 
   // This function runs when the form is submitted
@@ -35,6 +36,7 @@ function RegistrationForm() {
 
     // Show what was submitted (in real app, you'd send to a server)
     console.log("Form submitted with:", { firstName, lastName, email, terms });
+    // Note: Never log passwords in production!
     alert(
       `Form is valid! Submitted:\nName: ${firstName} ${lastName}\nEmail: ${email}`
     );
@@ -43,6 +45,7 @@ function RegistrationForm() {
     setFirstName("");
     setLastName("");
     setEmail("");
+    setPassword("");
     setTerms(false);
     setWasValidated(false);
   }
@@ -106,6 +109,25 @@ function RegistrationForm() {
                     />
                     <Form.Control.Feedback type="invalid">
                       Please enter a valid email.
+                    </Form.Control.Feedback>
+                  </Form.Group>
+                </Col>
+
+                {/* Password Input */}
+                <Col xs={12}>
+                  <Form.Group controlId="password">
+                    <Form.Label>Password</Form.Label>
+                    <Form.Control
+                      type="password"
+                      name="password"
+                      placeholder="Enter password"
+                      value={password}
+                      onChange={(e) => setPassword(e.target.value)}
+                      minLength={6}
+                      required
+                    />
+                    <Form.Control.Feedback type="invalid">
+                      Password is required (min 6 characters).
                     </Form.Control.Feedback>
                   </Form.Group>
                 </Col>
