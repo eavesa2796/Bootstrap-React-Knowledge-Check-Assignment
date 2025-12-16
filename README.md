@@ -97,6 +97,4 @@ This project is intended for **educational and demonstration purposes**. It may 
 **Anthony Eaves**
 GitHub: [@eavesa2796](https://github.com/eavesa2796)
 
----
 
-> This README is written in **Markdown** and can be saved as either `README.md` or `README.txt`, depending on submission requirements.
