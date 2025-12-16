@@ -9,7 +9,7 @@ function ContactSection() {
         <h2>Contact Us</h2>
         <p className="text-muted">We would love to hear from you!</p>
       </Col>
-      <Col md={8} lg={6} className="mx-auto">
+      <Col md={6} className="mx-auto">
         <Form>
           <Form.Group className="mb-3" controlId="contactName">
             <Form.Label>Name</Form.Label>

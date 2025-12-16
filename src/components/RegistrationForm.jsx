@@ -52,7 +52,7 @@ function RegistrationForm() {
 
   return (
     <Row className="justify-content-center">
-      <Col lg={8} xl={6}>
+      <Col lg={12}>
         <div className="card shadow-sm">
           <div className="card-body p-4">
             <h2 className="h4 mb-3">Registration Form</h2>
@@ -96,7 +96,7 @@ function RegistrationForm() {
                 </Col>
 
                 {/* Email Input */}
-                <Col xs={12}>
+                <Col md={12}>
                   <Form.Group controlId="email">
                     <Form.Label>Email</Form.Label>
                     <Form.Control
@@ -114,7 +114,7 @@ function RegistrationForm() {
                 </Col>
 
                 {/* Password Input */}
-                <Col xs={12}>
+                <Col md={12}>
                   <Form.Group controlId="password">
                     <Form.Label>Password</Form.Label>
                     <Form.Control
